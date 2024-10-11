@@ -1,0 +1,17 @@
+.calendar-h{
+    height:26px;
+    object-fit: contain;
+}
+.calendar-container-h{
+    height: 30px;
+}
+.tick-h{
+    height:15px;
+    top:0
+}
+.calendar-transition{
+    transition:transform 0.3s ease;
+}
+.calendar-transition:hover{
+    transform: scale(1.2);
+}

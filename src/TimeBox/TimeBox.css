@@ -1,0 +1,23 @@
+.activity-box-border{
+    border:.5px solid #464646;
+    transition: border-color 0.1s ease;
+}
+.activity-box-border:hover{
+    border:1px solid #fff;
+}
+.green-border{
+    border: 1px solid green
+}
+.green-border:hover{
+    border:1px solid #fff;
+}
+.activity-box-width{
+    width:102px;
+}
+@media(max-width:768px){
+.activity-box-width{
+    width:90px;
+}
+}
+
+

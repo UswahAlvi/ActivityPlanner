@@ -1,0 +1,12 @@
+.drift{
+    left:100px;
+}
+@media(max-width:768px){
+    .drift{
+        left:170px;
+    }
+}
+.arrow-img-h{
+    height:20px;
+    
+}

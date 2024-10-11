@@ -1,0 +1,48 @@
+/* For medium devices (md - tablets, 768px and up) */
+.custom-font{
+    font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+    .custom-font {
+      font-size: 32px;
+    }
+}
+#inputActivity{
+    color: rgb(146, 145, 145);
+}
+#inputActivity::placeholder{
+    color: rgb(146, 145, 145);
+}
+.input-border{
+    border-bottom: .5px solid #464646;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    transition: border-color 0.1s ease;
+}
+.input-border:focus{
+    border:1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-shadow: none;
+}
+#inputTime{
+    color: rgb(146, 145, 145);
+}
+#inputTime::placeholder{
+    color: rgb(146, 145, 145);
+}
+.input-time-border{
+    border:.5px solid #464646;
+    transition: border-color 0.1s ease;
+}
+.input-time-border:focus{
+    border:1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-shadow: none;
+}
+.btn-color{
+    color:#A84A00  !important
+}
+.in-active{
+    color:#493f37  !important
+}

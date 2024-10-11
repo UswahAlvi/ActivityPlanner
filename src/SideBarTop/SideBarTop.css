@@ -1,0 +1,19 @@
+.logo-img{
+    height:50px;
+    margin-bottom:48px;
+}
+.menu-img{
+    height:26px;
+    transition:transform 0.3s ease;
+}
+.mb{
+    margin-bottom: 95px;
+}
+@media(max-height:500px){
+    .mb{
+        margin-bottom: 35px;
+    }
+}
+.menu-img:hover{
+    transform: scale(1.2);
+}

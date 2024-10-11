@@ -1,0 +1,29 @@
+.main-panel{
+    background-color: #000;
+}
+
+.gap{
+    gap:50px;
+}
+.ml{
+    margin-left: 90px;
+}
+.h-logo{
+    height: 465px;
+}
+@media(max-width:767px){
+    .h-logo{
+        height: 250px;
+    }
+    .ml{
+        margin-left: 0px;
+    }
+}
+.mt{
+    margin-top: 90px;
+}
+@media(max-width:768px){
+    .mt{
+        margin-top: 72px;
+    }
+}

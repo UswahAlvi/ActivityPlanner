@@ -1,0 +1,18 @@
+.modal-bg{
+    background-color: rgb(37 40 46 / 1 );
+}
+.text-color{
+    color: rgb(181 181 181 /1);
+}
+.btn-color{
+    color:rgb(168 74 0 / 1) !important
+}
+.btn{
+    transition: transform 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.in-active{
+    color:rgb(73, 66, 62) !important
+}

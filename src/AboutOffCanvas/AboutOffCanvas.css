@@ -1,0 +1,7 @@
+.text-color{
+    --tw-text-opacity: 1;
+    color: rgb(181 181 181 / var(--tw-text-opacity));
+}
+.bg-container{
+    background-color: rgb(228 228 228 / 1);
+}

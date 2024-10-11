@@ -1,0 +1,26 @@
+.navbar-bg{
+    background-color: #a84a00;
+    color:black;
+    z-index:99;
+}
+.menu-img{
+    height:26px;
+    transition:transform 0.3s ease;
+}
+.w-100{
+    width:100vw;
+}
+.ml{
+    margin-left: 90px;
+}
+.fs-xs{
+    font-size: 32px;
+}
+@media(max-width:768px){
+    .fs-xs{
+        font-size: 20px;
+    }
+    .ml{
+        margin-left:0;
+    }
+}

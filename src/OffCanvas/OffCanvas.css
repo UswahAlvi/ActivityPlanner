@@ -1,0 +1,16 @@
+.offcanvas-bg{
+    background-color: rgb(37 40 46 / 1) !important
+}
+.offcanvas-title-color{
+    color: #a84a00;
+
+}
+.text-color{
+    color:lightgray
+}
+.in-active{
+    color:rgb(75, 74, 74)
+}
+.about-div-hover:hover{
+    background-color: gray;
+}
