@@ -16,10 +16,10 @@ export default function AboutOffCanvas({showAboutOffCanvas, toggleAboutOffCanvas
       <div className="offcanvas-body pt-3 px-4" style={{overflowY:"scroll"}}>
         <div className='d-flex flex-column h-100 text-color'>
             <div className='fw-normal fs-4 mb-2'>
-                What does this app do?
+                What is this app for?
             </div>
             <div className='mb-2'>
-                This app allows you to plan activities between a specified start and end date/time
+                This app is developed as a practice project. You can find the original app at planner.greenjazz.com
             </div>
             <div className='fw-normal fs-4 mb-2'>
                 How do i use this app?
@@ -37,7 +37,7 @@ export default function AboutOffCanvas({showAboutOffCanvas, toggleAboutOffCanvas
                 <div className='text-center' style={{color: "black"}}>
                     Send an email to 
                     <a href="mailto:activityplanner@greenjazz.com" style={{color: "var(--bs-body-color)"}}>
-                        activityplanner@greenjazz.com
+                        uswaaalvi@gmail.com
                     </a>
                 </div>
             </div>
