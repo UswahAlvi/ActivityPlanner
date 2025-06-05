@@ -136,14 +136,14 @@ export default function TimesContainer({doesActivityExists, isActivityAdded,togg
         <div className='width-times-container bg-time-container rounded rounded px-md-5 px-2 py-md-5 py-2 align-self-end'>
             <TimeExceededModal showTimeExceededModal={showTimeExceededModal} toggleTimeExceededModal={toggleTimeExceededModal}/>
             <div className='rounded bg-available-time d-flex flex-column align-items-center'>
-            <img src='./Assets/danger.png' height={'25px'} role='button' onClick={toggleTimeExceededModal} className={`${(availableHour<0 || availableMinute<0)?'d-block':'d-none'}`}/>
+            <img src='danger.png' height={'25px'} role='button' onClick={toggleTimeExceededModal} className={`${(availableHour<0 || availableMinute<0)?'d-block':'d-none'}`}/>
                 <span style={{fontWeight:'450', fontSize:'28px'}}> {availableHour}h:{availableMinute}m </span>
                 <span style={{fontWeight:'300', fontSize:'22px'}}> Available Time</span>
             </div>
             <div>
                 <div className={`${doesActivityExists?'d-flex':'d-none'} align-items-center p-3`}>
                     <div className='d-flex align-items-center pe-3'>
-                        <img src="./Assets/watch.png" height={"30px"}/>
+                        <img src="watch.png" height={"30px"}/>
                     </div>
                     <div className={`d-flex flex-column`}>
                         <span style={{fontWeight:'450', fontSize:'22px'}}>{EstimatedEndTime.toLocaleString('en-US', options)}</span>
@@ -152,7 +152,7 @@ export default function TimesContainer({doesActivityExists, isActivityAdded,togg
                 </div>
                 <div className='d-flex align-items-center p-3'>
                     <div className='d-flex align-items-center pe-3'>
-                        <img src="./Assets/stopwatch.png" height={"30px"}/>
+                        <img src="stopwatch.png" height={"30px"}/>
                     </div>
                     <div className='d-flex flex-column'>
                         <span style={{fontWeight:'450', fontSize:'22px'}}>{totalHours}h:{totalMinutes}m</span>

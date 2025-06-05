@@ -16,11 +16,11 @@ export default function TopBar({toggleOffCanvas}) {
     }
     return <nav className="w-100 navbar navbar-bg d-flex px-4 px-md-5 px-lg-5 py-3 py-lg-4 py-md-4 justify-content-between align-items-center position-fixed ml">
         <div className='d-flex align-items-center mb-0 p-0'>
-            <img src="./Assets/logo.png" height={"40px"} className='d-block d-md-none d-lg-none d-xl-none' alt="logo"/>
+            <img src="logo.png" height={"40px"} className='d-block d-md-none d-lg-none d-xl-none' alt="logo"/>
             <span className="ms-4 ms-md-0 ms-lg-0 fw-bold text-wrap fs-xs">
                 Hi, {greeting}  
             </span>
         </div>
-        <img src="./Assets/menu.png" className="menu-img mb-0 p-0 d-block d-md-none d-lg-none" alt="menu" role="button" onClick={toggleOffCanvas}/>
+        <img src="menu.png" className="menu-img mb-0 p-0 d-block d-md-none d-lg-none" alt="menu" role="button" onClick={toggleOffCanvas}/>
     </nav>
 }

@@ -75,7 +75,7 @@ export default function CalendarModal({ isTimeSet, toggleIsTimeUpdated, showCale
                         </div>
 
                         <div className={`${isEndTimeGreater ? 'd-none' : 'd-flex my-3'}`}>
-                            <img src="./Assets/danger.png" height={'20px'} alt="Warning Icon" />
+                            <img src="danger.png" height={'20px'} alt="Warning Icon" />
                             <span className="ps-2" style={{ fontSize: '12px' }}>
                                 Note: End date/time must be after the start date/time
                             </span>

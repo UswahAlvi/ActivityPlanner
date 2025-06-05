@@ -20,7 +20,7 @@ export default function SingleActivity({activity, toggleEditActivityModal, Updat
                       - {eDate.toLocaleString('en-US', options)}
                 </div>
                 <div className='d-flex align-items-baseline'>
-                    <img src="./Assets/time.png" height={"20px"}/>
+                    <img src="time.png" height={"20px"}/>
                     <span className='ms-2'> {activity.time} min </span>
                 </div>
             </div>

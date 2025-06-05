@@ -10,7 +10,7 @@ export default function AboutOffCanvas({showAboutOffCanvas, toggleAboutOffCanvas
   return (
     <div className={`offcanvas offcanvas-bg px-3 offcanvas-start ${showAboutOffCanvas ? 'show' : ''}`} tabIndex="-1" style={{ visibility: showAboutOffCanvas ? 'visible' : 'hidden' }}>
         <div className="offcanvas-header pt-5 d-flex align-items-center">
-            <img src="./Assets/back-arrow.png" height={"20px"} role="button" onClick={toggleAboutOffCanvas} />
+            <img src="back-arrow.png" height={"20px"} role="button" onClick={toggleAboutOffCanvas} />
             <span className="offcanvas-title offcanvas-title-color ms-4 fs-3 fw-bold">About</span>
       </div>
       <div className="offcanvas-body pt-3 px-4" style={{overflowY:"scroll"}}>
@@ -42,7 +42,7 @@ export default function AboutOffCanvas({showAboutOffCanvas, toggleAboutOffCanvas
                 </div>
             </div>
             <div className='d-flex align-items-center w-100 rounded px-2 py-3'>
-                <img src="./Assets/phone.png" height={"30px"}/>
+                <img src="phone.png" height={"30px"}/>
                 <div className='d-flex flex-column'>
                     <span className='ps-3'>Build version</span>
                     <span className='ps-3'>3.5.0</span>

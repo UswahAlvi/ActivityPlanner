@@ -19,7 +19,7 @@ export default function DeleteActivitiesModal({toggleDoesActivityExists,toggleOf
         <div className="modal-dialog modal-dialog-centered text-color">
             <div className="modal-content p-5 modal-bg d-flex align-items-center mb-4">
                 <div className='fw-normal fs-2 pb-5 d-flex align-items-center'>
-                    <img src='./Assets/danger.png' height={'30px'} />
+                    <img src='danger.png' height={'30px'} />
                     <span className='ps-4'> Delete Activity</span>
                 </div>
                 <div className='d-flex flex-column pb-5'>
